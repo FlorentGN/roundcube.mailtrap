@@ -13,7 +13,7 @@ Catch all mail and display it in roundcube interface.
     $ docker run -it --link mailtrap alpine:3.6 sh
 
       $ telnet mailtrap 25
-      ehlo example.com
+      helo example.com
       mail from: me@example.com
       rcpt to: you@example.com
       data
@@ -50,6 +50,6 @@ and recreate the container.
 ## Testing the image locally
 
 ```
-sudo docker build -t eaudeweb/mailtrap:test .
+sudo docker build -t florentgn/mailtrap:test .
 sudo docker-compose up
 ```

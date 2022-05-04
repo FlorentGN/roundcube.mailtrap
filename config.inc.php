@@ -13,8 +13,8 @@ $config['plugins'] = array(
     'archive',
     'zipdownload',
 );
-$config['skin'] = 'larry';
-$config['disabled_actions'] = array('addressbook.index','mail.compose','mail.reply','mail.reply-all','mail.forward');
+$config['skin'] = 'elastic';
+//$config['disabled_actions'] = array('addressbook.index','mail.compose','mail.reply','mail.reply-all','mail.forward');
 
 // store draft message is this mailbox
 // leave blank if draft messages should not be stored
