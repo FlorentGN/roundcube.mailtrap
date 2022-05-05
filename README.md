@@ -2,6 +2,8 @@
 
 Catch all mail and display it in roundcube interface.
 
+![picture 2](images/1b0084636c5739b018bc914ad751bece14bb8e9cb043cc05e625515bcfa658aa.png)  
+
 # Usage
 
 ## Start Mailtrap
