@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -q -y \
     php-mbstring \
     php-sqlite3 \
     php-pear \
+    php-intl \
     rsyslog \
     wget \
     && \
